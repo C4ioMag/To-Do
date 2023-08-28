@@ -1,0 +1,16 @@
+{
+  "name": "vuesinglefile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && vue serve App.vue",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli": "^3.4.0",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
